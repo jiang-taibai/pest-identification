@@ -1,0 +1,9 @@
+com\jsjds\mapper\InsectInfosMapper.class
+com\jsjds\mapper\InsectImagesMapper.class
+com\jsjds\mapper\CommodityMapper.class
+com\jsjds\mapper\UserHistoryMapper.class
+com\jsjds\mapper\InsectCommodityMapper.class
+com\jsjds\my\mapper\MyMapper.class
+com\jsjds\mapper\UserFavoriteMapper.class
+com\jsjds\mapper\PestSelectMapper.class
+com\jsjds\mapper\UserMapper.class

@@ -1,0 +1,15 @@
+com\jsjds\controller\userPart\UserHistoryController.class
+com\jsjds\controller\resourcePart\PestImageController.class
+com\jsjds\controller\AccountController.class
+com\jsjds\controller\TextMessageController.class
+com\jsjds\controller\adminPart\PestAlbumAdminController.class
+com\jsjds\Application.class
+com\jsjds\controller\adminPart\PestInfoAdminController.class
+com\jsjds\controller\PestDetailInfoController.class
+com\jsjds\controller\pestPart\PestCommodityController.class
+com\jsjds\controller\userPart\UserFavoriteController.class
+com\jsjds\configuration\CorsConfig.class
+com\jsjds\controller\ClassifySearchController.class
+com\jsjds\controller\PestBriefInfosController.class
+com\jsjds\MyWebAppConfigurer.class
+com\jsjds\NoWarnMapper.class

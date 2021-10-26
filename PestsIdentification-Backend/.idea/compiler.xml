@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="PestsIdentification-mapper" />
+        <module name="PestsIdentification-pojo" />
+        <module name="PestsIdentification-common" />
+        <module name="PestsIdentification-api" />
+        <module name="PestsIdentification-service" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="PestsIdentification-api" options="-parameters" />
+      <module name="PestsIdentification-common" options="-parameters" />
+      <module name="PestsIdentification-mapper" options="-parameters" />
+      <module name="PestsIdentification-pojo" options="-parameters" />
+      <module name="PestsIdentification-service" options="-parameters" />
+    </option>
+  </component>
+</project>

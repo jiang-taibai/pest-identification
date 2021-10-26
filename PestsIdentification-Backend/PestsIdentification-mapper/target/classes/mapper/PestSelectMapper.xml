@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jsjds.mapper.PestSelectMapper">
+  <select id="queryPestsByKeyword" resultType="com.jsjds.pojo.vo.PestBriefInfosVO">
+    -- 按关键字查询昆虫
+    SELECT
+      species_id AS speciesId, insect_name AS pestName, intro
+    FROM
+      `insect_infos`
+    WHERE
+      species_id LIKE CONCAT("%", #{keyword}, "%") OR
+      insect_name LIKE CONCAT("%", #{keyword}, "%") OR
+      intro LIKE CONCAT("%", #{keyword}, "%") OR
+      victims LIKE CONCAT("%", #{keyword}, "%") OR
+      distribution LIKE CONCAT("%", #{keyword}, "%");
+  </select>
+
+  <select id="queryPestsDetailInfoBySpeciesId" resultType="com.jsjds.pojo.vo.PestDetailInfoVO">
+    SELECT
+      species_id AS speciesId, insect_name AS insectName, intro, victims, distribution, countermeasure
+    FROM
+      `insect_infos`
+    WHERE
+      species_id = #{speciesId};
+  </select>
+
+  <select id="queryPestImgIntroInfoVoByGenusId" resultType="com.jsjds.pojo.vo.PestImgIntroInfoVo">
+    SELECT
+      `insect_infos`.species_id, insect_name, intro, `insect_images`.img_path
+    FROM
+      `insect_infos`,`insect_images`
+    WHERE
+      `insect_infos`.species_id = `insect_images`.species_id and genus_id = #{genusId};
+  </select>
+</mapper>

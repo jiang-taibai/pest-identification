@@ -1,0 +1,11 @@
+# 配置数据源信息
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/pests_identify?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=GMT%2B8&useTimezone=true
+    username: root
+    password: 4321
+
+
+# 项目资源图片文件目录配置
+pest-image-path:
+  prefix: C:\src\Pests Identification\
