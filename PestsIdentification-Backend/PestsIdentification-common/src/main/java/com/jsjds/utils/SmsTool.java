@@ -22,8 +22,8 @@ public class SmsTool {
     //产品域名,开发者无需替换
     static final String domain = "dysmsapi.aliyuncs.com";
     // TODO 此处需要替换成开发者自己的AK(在阿里云访问控制台寻找)
-    static final String accessKeyId = "LTAI5tJiEmoHqeg3o1izqpoX";
-    static final String accessKeySecret = "4Jo4qpWmaAWf3J6Se6Ca8lgpINdHhP";
+    static final String accessKeyId = "**********************";
+    static final String accessKeySecret = "**********************";
 
     public static SendSmsResponse sendSms(String phone, String code, String TemplateCode) throws ClientException {
         //可自助调整超时时间
