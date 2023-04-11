@@ -4,14 +4,14 @@
 ## 项目链接
 
 - 前端模块（Based on Vue2）
-  - [Github](https://github.com/Jiang-TaiBai/pest-identification-vue-ui) 
-  - [Gitee](https://gitee.com/jiang-taibai/pest-identification-vue-ui)
+  - [pest-identification-vue-ui(Github)](https://github.com/Jiang-TaiBai/pest-identification-vue-ui) 
+  - [pest-identification-vue-ui(Gitee)](https://gitee.com/jiang-taibai/pest-identification-vue-ui)
 - 后端模块（Based on SpringBoot）
-  - [Github](https://github.com/Jiang-TaiBai/pest-identification-java-api)
-  - [Gitee](https://gitee.com/jiang-taibai/pest-identification-java-api)
+  - [pest-identification-java-api(Github)](https://github.com/Jiang-TaiBai/pest-identification-java-api)
+  - [pest-identification-java-api(Gitee)](https://gitee.com/jiang-taibai/pest-identification-java-api)
 - 人工智能模块（Based on ResNeXt&YOLO and Tornda）
-  - [Github](https://github.com/Jiang-TaiBai/pest-identification-python-api)
-  - [Gitee](https://gitee.com/jiang-taibai/pest-identification-python-api)
+  - [pest-identification-python-api(Github-待上传)](https://github.com/Jiang-TaiBai/pest-identification-python-api)
+  - [pest-identification-python-api(Gitee-待上传)](https://gitee.com/jiang-taibai/pest-identification-python-api)
 
 
 ## 项目展示
